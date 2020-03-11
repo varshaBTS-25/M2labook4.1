@@ -1,0 +1,39 @@
+
+<table class="container float-center">
+  <thead>
+    <tr>
+      <th>Book ID</th>
+      <th>Book Title</th>
+      <th>Book Author</th>
+      <th>Book Year of Publish</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let a of book">
+      <td>{{a.id }} </td>
+      <td>{{a.title}}</td>
+      <td>{{a.author}}</td>
+      <td>{{a.year}}</td>
+    </tr>
+  </tbody>
+</table>
+<!--
+<table>
+  <thead>
+    <tr>
+      <th>Book ID</th>
+      <th>Book Title</th>
+      <th>Book Author</th>
+      <th>Book Year of Publish</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let a of book">
+      <td>{{a.id}}</td>
+      <td>{{a.title}}</td>
+      <td>{{a.author}}</td>
+      <td>{{a.year}}</td>
+    </tr>
+  </tbody>
+</table>-->
